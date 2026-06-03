@@ -85,7 +85,7 @@ outputs/
 │   ├── settlement_rate_by_diagnosis.png
 │   └── correlation_matrix.png
 │
-└── tables/
+├── tables/
 |   ├── fraud_by_accreditation.csv
 |   └── logistic_regression_summary.csv
 |

@@ -78,10 +78,17 @@ health-insurance-claims-analysis-r/
 │   ├── 04_statistical_analysis.R
 │   └── 05_export_cleaned_data.R
 │
-├── outputs/
-│   ├── figures/
-│   └── tables/
+outputs/
+├── figures/
+│   ├── claim_status_by_document_status.png
+│   ├── claim_amount_distribution.png
+│   ├── settlement_rate_by_diagnosis.png
+│   └── correlation_matrix.png
 │
+└── tables/
+|   ├── fraud_by_accreditation.csv
+|   └── logistic_regression_summary.csv
+|
 └── docs/
 ```
 

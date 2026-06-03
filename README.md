@@ -7,6 +7,7 @@ This project performs an end-to-end analysis of health insurance claims data usi
 The objective is to identify factors associated with claim approval, fraud risk, settlement outcomes, and operational inefficiencies within the claims process.
 
 The analysis demonstrates practical applications of healthcare analytics, statistical modeling, and business intelligence techniques using a real-world insurance claims dataset.
+
 ---
 
 ## Key Findings
@@ -22,6 +23,18 @@ The analysis demonstrates practical applications of healthcare analytics, statis
 - Fraud indicators were not statistically significant in the final logistic regression model after adjusting for other claim characteristics.
 
 - Fraud rates were relatively consistent across hospital accreditation categories, suggesting accreditation status alone may not adequately identify high-risk providers.
+
+---
+
+## Business Recommendations
+
+Based on the analysis:
+
+- Prioritize document completeness checks before claim adjudication.
+- Increase monitoring of blacklisted healthcare providers.
+- Implement early-warning workflows for delayed claim submissions.
+- Combine provider risk scores with additional fraud indicators for improved fraud detection.
+
 ---
 
 ## Dataset
@@ -50,11 +63,11 @@ This analysis aims to answer:
 
 ## 🛠️ Tools & Technologies
 
-###Programming Language:
+### Programming Language:
 
 * R
 
-###Libraries:
+### Libraries:
 
 * tidyverse
 * dplyr
@@ -65,7 +78,7 @@ This analysis aims to answer:
 * broom
 * scales
 
-###Statistical Methods:
+### Statistical Methods:
 
 * Descriptive Statistics
 * Chi-Square Testing

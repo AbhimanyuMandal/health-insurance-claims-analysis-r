@@ -2,15 +2,26 @@
 
 ## 📌 Project Overview
 
-Health insurance companies process thousands of claims daily, making it critical to identify factors associated with claim approval, settlement amounts, fraud risk, and operational delays.
-
 This project performs an end-to-end analysis of health insurance claims data using R, covering data cleaning, feature engineering, exploratory data analysis (EDA), statistical testing, and predictive modeling.
 
-The objective is to understand the drivers of claim approval and develop insights that can support fraud detection, risk assessment, and operational decision-making.
+The objective is to identify factors associated with claim approval, fraud risk, settlement outcomes, and operational inefficiencies within the claims process.
+
+The analysis demonstrates practical applications of healthcare analytics, statistical modeling, and business intelligence techniques using a real-world insurance claims dataset.
+---
+
+## Dataset
+
+Dataset: Indian Health Insurance Claims Data
+
+Source: Kaggle
+
+https://www.kaggle.com/datasets/apurvpanchal/indian-health-insurance-claims-data
+
+This dataset is a synthetic healthcare insurance claims dataset designed for analytics, fraud detection, and predictive modeling applications.
 
 ---
 
-## 🎯 Business Questions
+## 🎯 Project Objectives
 
 This analysis aims to answer:
 
@@ -24,7 +35,12 @@ This analysis aims to answer:
 
 ## 🛠️ Tools & Technologies
 
+###Programming Language:
+
 * R
+
+###Libraries:
+
 * tidyverse
 * dplyr
 * ggplot2
@@ -34,21 +50,27 @@ This analysis aims to answer:
 * broom
 * scales
 
+###Statistical Methods:
+
+* Descriptive Statistics
+* Chi-Square Testing
+* Correlation Analysis
+* Logistic Regression
+
 ---
 
 ## 📂 Project Structure
 
 ```text
-insurance_claims_r_project/
+health-insurance-claims-analysis-r/
 │
 ├── README.md
 ├── requirements.R
 │
 ├── data/
 │   ├── raw/
-│   │   └── dataset.csv
 │   └── processed/
-│
+|
 ├── scripts/
 │   ├── 01_import_and_clean.R
 │   ├── 02_feature_engineering.R
@@ -69,11 +91,11 @@ insurance_claims_r_project/
 
 The following preprocessing steps were performed:
 
-* Standardized column names using `clean_names()`
+* Standardized column names using clean_names()
 * Removed duplicate observations
 * Converted categorical variables into factors
 * Checked data structure and missing values
-* Generated descriptive summaries using `skimr`
+* Generated descriptive summaries using skimr
 
 ---
 
@@ -95,7 +117,7 @@ Several analytical variables were created:
 
 ## 📊 Exploratory Data Analysis
 
-The project explores:
+The analysis includes:
 
 ### Claim Status by Documentation
 
@@ -163,14 +185,14 @@ A correlation matrix was generated for all numerical variables to identify poten
 
 Run the project in sequence:
 
-```r
+
 source("requirements.R")
 source("scripts/01_import_and_clean.R")
 source("scripts/02_feature_engineering.R")
 source("scripts/03_eda.R")
 source("scripts/04_statistical_analysis.R")
 source("scripts/05_export_cleaned_data.R")
-```
+
 
 ---
 
@@ -196,4 +218,7 @@ Interests:
 * Cancer Genomics
 * Machine Learning
 * Statistical Modeling
-* Real-World Healthcare Data
+* Real-World Data Analysis
+
+LinkedIn:
+https://www.linkedin.com/in/abhimanyu-mandal/

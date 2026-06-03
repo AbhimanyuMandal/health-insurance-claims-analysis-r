@@ -9,6 +9,19 @@ The objective is to identify factors associated with claim approval, fraud risk,
 The analysis demonstrates practical applications of healthcare analytics, statistical modeling, and business intelligence techniques using a real-world insurance claims dataset.
 ---
 
+## Key Findings
+
+- Complete documentation was associated with significantly higher claim approval rates.
+
+- Fraud-flagged claims demonstrated substantially lower approval probabilities compared with non-fraudulent claims.
+
+- Hospitals with higher risk scores showed lower average settlement rates.
+
+- Delays in claim submission were negatively associated with approval outcomes.
+
+- Logistic regression identified documentation completeness and fraud status as the strongest predictors of claim approval.
+---
+
 ## Dataset
 
 Dataset: Indian Health Insurance Claims Data
@@ -171,6 +184,26 @@ Predictors include:
 ## 📉 Correlation Analysis
 
 A correlation matrix was generated for all numerical variables to identify potential relationships and multicollinearity.
+
+---
+
+## Sample Results
+
+### Claim Amount Distribution
+
+![Claim Amount Distribution](outputs/figures/claim_amount_distribution.png)
+
+### Claim Status by Document Status
+
+![Claim Status](outputs/figures/claim_status_by_document_status.png)
+
+### Settlement Rate by Diagnosis
+
+![Settlement Rate](outputs/figures/ettlement_rate_by_diagnosis.png)
+
+### Correlation Matrix
+
+![Correlation Matrix](outputs/figures/correlation_matrix.png)
 
 ---
 

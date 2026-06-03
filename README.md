@@ -214,7 +214,7 @@ A correlation matrix was generated for all numerical variables to identify poten
 
 ### Settlement Rate by Diagnosis
 
-![Settlement Rate](outputs/figures/ettlement_rate_by_diagnosis.png)
+![Settlement Rate](outputs/figures/settlement_rate_by_diagnosis.png)
 
 ### Correlation Matrix
 

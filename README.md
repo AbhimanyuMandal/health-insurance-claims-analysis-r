@@ -192,14 +192,14 @@ A correlation matrix was generated for all numerical variables to identify poten
 
 Run the project in sequence:
 
-
+```r
 source("requirements.R")
 source("scripts/01_import_and_clean.R")
 source("scripts/02_feature_engineering.R")
 source("scripts/03_eda.R")
 source("scripts/04_statistical_analysis.R")
 source("scripts/05_export_cleaned_data.R")
-
+```
 
 ---
 

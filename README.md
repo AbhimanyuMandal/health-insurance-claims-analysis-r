@@ -1,4 +1,5 @@
 # 🏥 Health Insurance Claims Analysis using R
+Healthcare Analytics | Statistical Modeling | Logistic Regression | Fraud Analysis
 
 ## 📌 Project Overview
 

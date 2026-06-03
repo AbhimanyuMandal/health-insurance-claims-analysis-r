@@ -11,15 +11,17 @@ The analysis demonstrates practical applications of healthcare analytics, statis
 
 ## Key Findings
 
-- Complete documentation was associated with significantly higher claim approval rates.
+- Claims with complete documentation were approximately 3 times more likely to be approved than claims with incomplete documentation (OR = 2.94, p < 0.001).
 
-- Fraud-flagged claims demonstrated substantially lower approval probabilities compared with non-fraudulent claims.
+- Claims associated with blacklisted healthcare providers had approximately 82% lower odds of approval (OR = 0.18, p < 0.001).
 
-- Hospitals with higher risk scores showed lower average settlement rates.
+- Claim submission timelines showed a significant association with approval outcomes, highlighting the operational importance of timely claim processing.
 
-- Delays in claim submission were negatively associated with approval outcomes.
+- Hospital risk scores were statistically associated with approval decisions, although the effect size was modest.
 
-- Logistic regression identified documentation completeness and fraud status as the strongest predictors of claim approval.
+- Fraud indicators were not statistically significant in the final logistic regression model after adjusting for other claim characteristics.
+
+- Fraud rates were relatively consistent across hospital accreditation categories, suggesting accreditation status alone may not adequately identify high-risk providers.
 ---
 
 ## Dataset

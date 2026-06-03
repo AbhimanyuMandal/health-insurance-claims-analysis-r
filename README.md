@@ -32,6 +32,7 @@ This analysis aims to answer:
 * skimr
 * corrplot
 * broom
+* scales
 
 ---
 
